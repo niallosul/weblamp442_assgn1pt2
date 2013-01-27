@@ -3,11 +3,14 @@ weblamp442_assgn1pt2
 
 Part 2 of Assignment 1
 
+Command line instructions
 
 Clone and run composer install 
 
-run Vendors/bin/phpunit Tests/Src
+cd Tests and run the following
+
+../Vendors/bin/phpunit --coverage-html ./report Src
 
 You should see 8 succesful tests with 15 assertions
 
-I couldn't get the xdebug working, so no code coverage at this point
+100% Code Coverage on all of the Tests
