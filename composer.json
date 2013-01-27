@@ -1,0 +1,26 @@
+{
+    "name": "Assignment1pt2",
+    "description": "UW PHP course Assignment 1 Part 2",
+    "authors": [
+        {
+            "name": "Niall OSullivan",
+            "email": "niallosul@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "3.7.*@dev"
+    },
+    "require-dev": {
+        "monolog/monolog": "1.2.1"
+    },
+    "autoload": {
+        "classmap": [
+            "Src/",
+            "Tests/"
+        ]
+    },
+    "config": {
+        "vendor-dir" : "Vendors",
+        "vendor-bin" : "Vendors/bin"
+    }
+}
