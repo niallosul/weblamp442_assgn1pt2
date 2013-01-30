@@ -7,15 +7,15 @@ class CarTest extends \PHPUnit_Framework_TestCase
      */
     public function setUp() {
 		$this->fourdoorCar = new \Car\Car;
-        $this->tudorCar = new \Car\Car;
+		$this->tudorCar = new \Car\Car;
 		$this->tudorCar->setStyle("tudor");
     }
     /**
 	 * Destroy both car instances 
      */
     public function tearDown() {
-        unset($this->tudorCar);
-        unset($this->fourdoorCar);
+		unset($this->tudorCar);
+		unset($this->fourdoorCar);
     }
 
     /**
@@ -23,8 +23,8 @@ class CarTest extends \PHPUnit_Framework_TestCase
 	 * an empty string for both types of car 
      */
     public function testHonk( ) {
-        $this->assertSame( $this->tudorCar->honk(),"");
-        $this->assertSame( $this->fourdoorCar->honk(),"");
+		$this->assertSame( $this->tudorCar->honk(),"");
+		$this->assertSame( $this->fourdoorCar->honk(),"");
     }
 
     /**
@@ -33,8 +33,8 @@ class CarTest extends \PHPUnit_Framework_TestCase
 	 * 4 for non tudor 
      */
     public function testDoorCount( ) {
-        $this->assertSame( $this->tudorCar->getNumberOfDoors(),2);
-        $this->assertSame( $this->fourdoorCar->getNumberOfDoors(),4);
+		$this->assertSame( $this->tudorCar->getNumberOfDoors(),2);
+		$this->assertSame( $this->fourdoorCar->getNumberOfDoors(),4);
     }    
 }
 ?>
