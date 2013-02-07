@@ -4,7 +4,7 @@
     >
     <testsuites>
         <testsuite name="Weblamp 442 Assignment 1 Part 2 Testing">
-            <directory>../*</directory>
+            <directory>../Src/</directory>
         </testsuite>
     </testsuites>
 </phpunit>
