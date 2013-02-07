@@ -1,7 +1,7 @@
 <?php
   namespace Car;
   /**
-  * New Class to represent a Car 
+  * Another Class to represent a Car 
   */
   class Car extends \Vehicle\Vehicle implements \vehicleInterface
   {
